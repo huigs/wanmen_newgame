@@ -15,25 +15,26 @@ while True:
     langdetect_resp = requests.post(langdetect_url, headers=headers, data=langdetect_data)
     langdetect_dict = json.loads(langdetect_resp.content.decode())
     print(langdetect_dict)
-    langdetect = langdetect_dict["lan"]
+    # langdetect = langdetect_dict["lan"]
 
-    if langdetect == "en":  # 检测到输入为英文，翻译成中文
-        langtransto = "zh"
-    else:
-        langtransto = "en"  # 输入为中文则翻译成英文
+    # if langdetect == "en":  # 检测到输入为英文，翻译成中文
+    #    langtransto = "zh"
+    # else:
+    #    langtransto = "en"  # 输入为中文则翻译成英文
 
-    transapi_data = {"from": langdetect,
-                     "to": langtransto,
+    transapi_data = {"from": "en",
+                     "to": "zh",
                      "query": input_word,
                      "transtype": "translang",
                      "simple_means_flag": 3,
-                     "sign": 484403.231170,
-                     "token": "9b9736e837ab4fd40c9b0ee85b7fa213"}
+                     "sign": 54706.276099,
+                     "token": "ae21c76c9a394542e904f4feb95c7156"}
     # sign和token不同的用户可能不一样
 
     transapi_reap = requests.post(transapi_url, headers=headers, data=transapi_data)
 
     transapi_dict = json.loads(transapi_reap.content.decode())
+    print(transapi_dict)
     # json.loads()函数可以将网页的响应转化为字典格式
     # （如果响应的格式是像字典一样的字符串，即json字符串，的话）
     trans_str = transapi_dict["trans_result"]["data"][0]["dst"]
