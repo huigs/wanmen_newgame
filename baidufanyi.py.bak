@@ -1,6 +1,6 @@
 import requests
 import json
-
+阿发吧
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"}
 # 2个请求的URL地址
