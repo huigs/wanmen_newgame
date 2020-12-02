@@ -27,12 +27,16 @@ uname -v = #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
+PATH: /home/wsun/anaconda3/bin
+PATH: /home/wsun/anaconda3/condabin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin
 PATH: /usr/bin
 PATH: /sbin
 PATH: /bin
+PATH: /usr/games
+PATH: /usr/local/games
 PATH: /snap/bin
 
 
@@ -191,7 +195,7 @@ am_cv_prog_cc_c_o=yes
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing aclocal-1.16'
+ACLOCAL='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing aclocal-1.16'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -200,9 +204,9 @@ AM_BACKSLASH='\'
 AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
 AM_DEFAULT_VERBOSITY='1'
 AM_V='$(V)'
-AUTOCONF='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing autoconf'
-AUTOHEADER='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing autoheader'
-AUTOMAKE='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing automake-1.16'
+AUTOCONF='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing autoconf'
+AUTOHEADER='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing autoheader'
+AUTOMAKE='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing automake-1.16'
 AWK='gawk'
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
@@ -223,7 +227,7 @@ LDFLAGS=''
 LIBOBJS=''
 LIBS=''
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing makeinfo'
+MAKEINFO='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing makeinfo'
 MKDIR_P='/usr/bin/mkdir -p'
 OBJEXT='o'
 PACKAGE='helloworld'
@@ -261,7 +265,7 @@ host_alias=''
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/install-sh'
+install_sh='${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

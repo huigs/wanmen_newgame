@@ -431,7 +431,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/wsun/samba_share/github/wanmen_newgame/testbuild'
+ac_pwd='/home/wsun/samba_share/github/wanmen_newgame/buildtest'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -629,12 +629,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/install-sh"
-S["MAKEINFO"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing automake-1.16"
-S["AUTOCONF"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/testbuild/missing aclocal-1.16"
+S["install_sh"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/install-sh"
+S["MAKEINFO"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing automake-1.16"
+S["AUTOCONF"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/wsun/samba_share/github/wanmen_newgame/buildtest/missing aclocal-1.16"
 S["VERSION"]="0.1"
 S["PACKAGE"]="helloworld"
 S["CYGPATH_W"]="echo"
